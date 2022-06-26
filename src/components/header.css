@@ -1,0 +1,47 @@
+.headerContainer {
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+}
+
+.headerTopPart {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoContainer {
+    
+}
+
+.logoContainer img {
+    height: 100px;
+}
+
+.menu {
+    
+}
+
+.headerLowerPart {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sandra {
+    margin-bottom: 5px;
+}
+
+#mueller {
+    margin-top: 0px;
+}
+
+.iconContainer {
+    margin: 30px 0px 100px;
+}
+
+.iconContainer img {
+    height: 40px;
+    margin: 20px;
+}
