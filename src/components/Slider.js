@@ -1,5 +1,5 @@
 import React from 'react';
-import './slider.css';
+import './../cssFiles/slider.css';
 import projectsArray from './projectsArray';
 
 const Slider = () => {
@@ -14,10 +14,10 @@ const Slider = () => {
               slides.style.transform = "translateX(-0%)";
               e.target.classList.add("active");
             } else if (e.target.classList.contains("second")) {
-              slides.style.transform = "translateX(-33.33333333333333%)";
+              slides.style.transform = "translateX(-33.9%)";
               e.target.classList.add("active");
             } else if (e.target.classList.contains('third')){
-              slides.style.transform = 'translatex(-66.6666666667%)';
+              slides.style.transform = 'translatex(-67.7%)';
               e.target.classList.add('active');
             }
         }
