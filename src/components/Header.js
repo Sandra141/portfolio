@@ -1,5 +1,5 @@
 import React from "react";
-import './header.css';
+import './../cssFiles/header.css';
 import logo from './../images/logo.png';
 import gitHub from './../images/gitHub.png';
 import linkedIn from './../images/linkedIn.png';
@@ -7,6 +7,7 @@ import xing from './../images/xing.png';
 
 const Header = () => {
     return (
+        <>
         <header className="headerContainer">
             <div className="headerTopPart">
                 <div className="logoContainer">
@@ -28,6 +29,7 @@ const Header = () => {
                 </div>
             </div>
         </header>
+        </>
     );
 }
 
