@@ -23,7 +23,7 @@ const Sphere = () => {
 
     return (
         <div className="sphereContainer">
-            <p>---- What I use ----</p>
+            <p>------ What I use ------</p>
             <h2>My Skills</h2>
             <div className="sphereContent"></div>
         </div>

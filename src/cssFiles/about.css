@@ -3,25 +3,25 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 2em;
+    padding: 1em 2em 4em;
 }
 
 .pictureContainer {
     position: relative;
     top: 0;
     left: 0;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
 }
 
 #frame {
-    height: 275px;
+    height: 17em;
     position: absolute;
-    top: -20px;
-    left: -20px;
+    top: -1.3em;
+    left: -1.3em;
 }
 
 .picture {
-    height: 300px;
-    width: 300px;
+    height: 19em;
+    width: 19em;
     border: solid 2px rgba(255, 255, 255, 0.33);
 }
