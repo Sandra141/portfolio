@@ -1,8 +1,9 @@
 .headerContainer {
+    height: 100vh;
     background-color: #141414;
     display: flex;
     flex-direction: column;
-    padding: 20px 20px 100px;
+    padding: 1em 1em 5em;
 }
 
 .headerTopPart {
@@ -17,7 +18,7 @@
 }
 
 .logoContainer img {
-    height: 100px;
+    height: 6em;
 }
 
 .menu {
@@ -25,25 +26,25 @@
 }
 
 .headerLowerPart {
-    margin-top: 20px;
+    margin-top: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 #sandra {
-    margin-bottom: 5px;
+    margin-bottom: 0.3em;
 }
 
 #mueller {
-    margin-top: 0px;
+    margin-top: 0;
 }
 
 .iconContainer {
-    margin: 30px 0px;
+    margin: 2em 0 0;
 }
 
 .iconContainer img {
-    height: 40px;
-    margin: 20px;
+    height: 2.5em;
+    margin: 1.25em;
 }
