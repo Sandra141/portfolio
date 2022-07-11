@@ -4,7 +4,7 @@ import Slider from "./Slider";
 
 const Project = () => {
     return(
-        <div className="projectContainer">
+        <div className="projectContainer" id='projects'>
             <p>------ What I do ------</p>
             <h2>My Projects</h2>
             <Slider />

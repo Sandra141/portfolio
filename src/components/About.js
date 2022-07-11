@@ -1,6 +1,6 @@
 import React from "react";
 import './../cssFiles/about.css';
-import frame from './../images/frame.png'
+import frame from './../images/frame.png';
 
 const Contact = () => {
     return (
@@ -9,7 +9,7 @@ const Contact = () => {
                 <img src={frame} id='frame' />
                 <div className="picture"></div>
             </div>
-            <p>------ Who I am ------</p>
+            <p id='about'>------ Who I am ------</p>
             <h2>About Me</h2>
             <p>
                 I am Sandra Müller. I dropped out of my interesting and challenging studies at the University of Applied Sciences in Ludwigshafen because I was able to gain many insights into the diverse Japanese culture there. Since then, I have fallen in love with programming. <br /><br />

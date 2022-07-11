@@ -17,12 +17,10 @@
     align-items: center;
 }
 
-.logoContainer img {
+#headerlogo {
     height: 6em;
-}
-
-.menu {
-    
+    transition: height ease-in-out 0.3s;
+    transition-delay: 0;
 }
 
 .headerLowerPart {

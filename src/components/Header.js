@@ -4,18 +4,17 @@ import logo from './../images/logo.png';
 import gitHub from './../images/gitHub.png';
 import linkedIn from './../images/linkedIn.png';
 import xing from './../images/xing.png';
+import MobileMenuButton from "./MobileMenu";
 
 const Header = () => {
     return (
         <>
-        <header className="headerContainer">
+        <header className="headerContainer" id='home'>
             <div className="headerTopPart">
                 <div className="logoContainer">
-                    <img src={logo} />
+                    <img src={logo} id='headerlogo' />
                 </div>
-                <div className="menu">
-                    <p>Menu</p>
-                </div>
+                <MobileMenuButton />
             </div>
             <div className="headerLowerPart">
                 <h3>HI THERE, I'M</h3>
