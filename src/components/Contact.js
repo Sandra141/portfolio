@@ -6,7 +6,7 @@ import xing from './../images/xing.png';
 
 const Contact = () => {
     return(
-        <div className="ContactContainer">
+        <div className="ContactContainer" id='contact'>
             <p>------ Contact Me ------</p>
             <h2>Get in Touch</h2>
             <p>I am just a few clicks away...</p>
