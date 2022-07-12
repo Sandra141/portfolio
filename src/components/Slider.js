@@ -14,10 +14,10 @@ const Slider = () => {
               slides.style.transform = "translateX(-0%)";
               e.target.classList.add("active");
             } else if (e.target.classList.contains("second")) {
-              slides.style.transform = "translateX(-33.9%)";
+              slides.style.transform = "translateX(-80vw) translateX(-1em)"; //-80.85vw bzw. -33.9%
               e.target.classList.add("active");
             } else if (e.target.classList.contains('third')){
-              slides.style.transform = 'translatex(-67.7%)';
+              slides.style.transform = 'translatex(-160vw) translateX(-2em)'; //-161.65vw bzw. -67.7%
               e.target.classList.add('active');
             }
         }
@@ -31,7 +31,8 @@ const Slider = () => {
                         projectsArray.map(slide => {
                             return(
                             <div className="card" key={slide.id} >
-                                <img src={slide.src} />
+                                {/*<img src={slide.src} />*/}
+                                <div id="temporaryHeadingContainer"><h3>Coming Soon</h3></div> {/* remove this line when projects are added */}
                                 <div className="content">
                                     <h1>{slide.headline}</h1>
                                     <h3>{slide.description}</h3>

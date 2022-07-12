@@ -14,3 +14,11 @@
 .desktopMenuContainer a:hover {
     color: #a08cd6;
 }
+
+/*------------- media Queries -------------*/
+
+@media screen and (min-width: 0) and (max-width: 750px) {
+    .desktopMenuContainer {
+        display: none;
+    }
+}

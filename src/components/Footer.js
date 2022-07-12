@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="logoContainer">
                 <img src={logo} id="footerlogo" />
             </div>
-            <p>© Copyright 2022 <br />- Sandra Müller</p>
+            <p>© Copyright 2022 - Sandra Müller</p>
         </div>
     );
 }
