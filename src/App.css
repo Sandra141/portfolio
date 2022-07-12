@@ -3,4 +3,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/*------------- media Queries -------------*/
+
+@media screen and (min-width: 700px) {
+    .main {
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .main {
+        padding-left: 6em;
+        padding-right: 6em;
+    }
 }

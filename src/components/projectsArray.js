@@ -2,20 +2,20 @@ const projectsArray = [
     {
         "id": 1,
         "src": "",
-        "headline": "Product Design",
-        "description": "UI/UX, Design"
+        "headline": "My Project",
+        "description": "Coming Soon"
     },
     {
         "id": 2,
         "src": "",
-        "headline": "Product Design",
-        "description": "UI/UX, Design"
+        "headline": "My Project",
+        "description": "Coming Soon"
     },
     {
         "id": 3,
         "src": "",
-        "headline": "Product Design",
-        "description": "UI/UX, Design"
+        "headline": "My Project",
+        "description": "Coming Soon"
     }
 ]
 

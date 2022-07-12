@@ -16,17 +16,22 @@ const Header = () => {
                 <div className="logoContainer">
                     <img src={logo} id='headerlogo' />
                 </div>
+                <MobileMenuButton />
                 <DesktopMenu />
             </div>
             <div className="headerLowerPart">
-                <h3>HI THERE, I'M</h3>
-                <h1 id='sandra' >Sandra</h1>
-                <h1 id='mueller' >Müller</h1>
-                <h3>A FULL-STACK DEVELOPER</h3>
-                <div className="iconContainer">
-                    <a href='https://github.com/Sandra141' target='_blanc' ><img src={gitHub} /></a>
-                    <a href='#' target='_blanc' ><img src={linkedIn} /></a>
-                    <a href='#' target='_blanc' ><img src={xing} /></a>
+                <div className="headerInfo">
+                    <div className="headerInfoBorder">
+                        <h3>HI THERE, I'M</h3>
+                        <h1 id='sandra' >Sandra</h1>
+                        <h1 id='mueller' >Müller</h1>
+                        <h3>A FULL-STACK DEVELOPER</h3>
+                        <div className="iconContainer">
+                            <a href='https://github.com/Sandra141' target='_blanc'><img src={gitHub} id="githubIcon" /></a>
+                            <a href='#' target='_blanc' ><img src={linkedIn} /></a>
+                            <a href='#' target='_blanc' ><img src={xing} /></a>
+                        </div>
+                    </div>
                 </div>
                 <div className="headerSphere">
                     <Sphere />

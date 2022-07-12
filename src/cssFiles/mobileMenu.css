@@ -106,3 +106,11 @@
   transition: height ease-in-out 0.3s;
     transition-delay: 0.3s;
 }
+
+/*------------- media Queries -------------*/
+
+@media screen and (min-width: 751px) {
+  .ham {
+      display: none;
+  }
+}
