@@ -89,6 +89,10 @@
   text-decoration: none;
 }
 
+.backgroundMobileMenu a:hover {
+  color: #a08cd6;
+}
+
 #iconContainerMobileMenu {
   position: absolute;
   justify-self: center;
