@@ -1,7 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import About from './components/About';
-import Sphere from './components/Sphere';
+import Skills from './components/Skills';
 import Project from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
@@ -12,7 +12,7 @@ function App() {
       <Header />
       <div className='main'>
         <About />
-        <Sphere />
+        <Skills />
         <Project />
         <Contact />
       </div>

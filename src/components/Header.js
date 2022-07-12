@@ -5,6 +5,8 @@ import gitHub from './../images/gitHub.png';
 import linkedIn from './../images/linkedIn.png';
 import xing from './../images/xing.png';
 import MobileMenuButton from "./MobileMenu";
+import DesktopMenu from "./DesktopMenu";
+import Sphere from './Sphere';
 
 const Header = () => {
     return (
@@ -14,7 +16,7 @@ const Header = () => {
                 <div className="logoContainer">
                     <img src={logo} id='headerlogo' />
                 </div>
-                <MobileMenuButton />
+                <DesktopMenu />
             </div>
             <div className="headerLowerPart">
                 <h3>HI THERE, I'M</h3>
@@ -25,6 +27,9 @@ const Header = () => {
                     <a href='https://github.com/Sandra141' target='_blanc' ><img src={gitHub} /></a>
                     <a href='#' target='_blanc' ><img src={linkedIn} /></a>
                     <a href='#' target='_blanc' ><img src={xing} /></a>
+                </div>
+                <div className="headerSphere">
+                    <Sphere />
                 </div>
             </div>
         </header>

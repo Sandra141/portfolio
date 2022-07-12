@@ -1,0 +1,16 @@
+.desktopMenuContainer {
+    display: flex;
+}
+
+.desktopMenuContainer p {
+    margin-left: 2em;
+    text-decoration: none;
+}
+
+.desktopMenuContainer a {
+    text-decoration: none;
+}
+
+.desktopMenuContainer a:hover {
+    color: #a08cd6;
+}

@@ -13,20 +13,22 @@ const Sphere = () => {
             radius: 200
         });
 
-        const myElement = document.querySelector('.sphereContent');
-        for (let i = 0; i < myElement.children.length; i++) {
+        const firstSphere = document.querySelector('.headerSphere').querySelector('.sphereContent');
+        for (let i = 0; i < firstSphere.children.length; i++) {
             if(i != 0) {
-                myElement.children[i].remove();
+                firstSphere.children[i].remove();
+            }
+        }
+        const secondSphere = document.querySelector('.skillContainer').querySelector('.sphereContent');
+        for (let i = 0; i < secondSphere.children.length; i++) {
+            if(i != 0) {
+                secondSphere.children[i].remove();
             }
         }
     }, []);
 
     return (
-        <div className="sphereContainer">
-            <p>------ What I use ------</p>
-            <h2>My Skills</h2>
-            <div className="sphereContent"></div>
-        </div>
+        <div className="sphereContent"></div>
     );
 }
 
