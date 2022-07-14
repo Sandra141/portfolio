@@ -25,11 +25,10 @@ const Header = () => {
                         <h3>HI THERE, I'M</h3>
                         <h1 id='sandra' >Sandra</h1>
                         <h1 id='mueller' >Müller</h1>
-                        <h3>A FULL-STACK DEVELOPER</h3>
+                        <h3>JUNIOR FULL-STACK DEVELOPER</h3>
                         <div className="iconContainer">
                             <a href='https://github.com/Sandra141' target='_blanc'><img src={gitHub} id="githubIcon" /></a>
-                            <a href='#' target='_blanc' ><img src={linkedIn} /></a>
-                            <a href='#' target='_blanc' ><img src={xing} /></a>
+                            <a href='https://www.linkedin.com/in/sandramüller/' target='_blanc' ><img src={linkedIn} /></a>
                         </div>
                     </div>
                 </div>
