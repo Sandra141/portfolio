@@ -7,8 +7,8 @@ const Contact = () => {
     return (
         <div className="aboutContainer">
             <div className="pictureContainer">
-                <img src={frame} id='frame' />
-                <div className="picture"> <img src={picture} /></div>
+                <img src={frame} id='frame' alt="" />
+                <div className="picture"> <img src={picture} alt="profile" /></div>
             </div>
             <div className="aboutInfo">
                 <p id='about'>------ Who I am ------</p>

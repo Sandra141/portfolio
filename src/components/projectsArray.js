@@ -1,9 +1,13 @@
+import MemoryGameGif from './../projectMedia/MemoryDemo.gif';
+import MemoryGameThumbnail from './../projectMedia/MemoryDemo.png';
+
 const projectsArray = [
     {
         "id": 1,
-        "src": "",
-        "headline": "My Project",
-        "description": "Coming Soon"
+        "imgSrc": MemoryGameThumbnail,
+        "gifSrc": MemoryGameGif,
+        "headline": "Memory Game",
+        "description": "One of my first projects. The idea came from an unfinished group project."
     },
     {
         "id": 2,

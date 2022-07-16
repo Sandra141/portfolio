@@ -7,7 +7,7 @@ const Footer = () => {
     return(
         <div className="footerContainer">
             <div className="logoContainer">
-                <img src={logo} id="footerlogo" />
+                <img src={logo} id="footerlogo" alt="Webpage Logo" />
             </div>
             <p>© Copyright 2022 - Sandra Müller</p>
         </div>
