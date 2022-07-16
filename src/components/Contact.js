@@ -12,8 +12,7 @@ const Contact = () => {
             <p>I am just a few clicks away...</p>
             <div className="iconContainer">
                 <a href='https://github.com/Sandra141' target='_blanc' ><img src={gitHub} /></a>
-                <a href='#' target='_blanc' ><img src={linkedIn} /></a>
-                <a href='#' target='_blanc' ><img src={xing} /></a>
+                <a href='https://www.linkedin.com/in/sandramüller/' target='_blanc' ><img src={linkedIn} /></a>
             </div>
             <p>E-Mail: <br /> muelsand20@gmail.com</p>
         </div>

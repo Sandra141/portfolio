@@ -60,8 +60,7 @@ const MobileMenu = () => {
                         <p><a href='#contact' onClick={handleMobileMenu} >Get In Touch</a></p>
                         <div className="iconContainer" id="iconContainerMobileMenu">
                               <a href='https://github.com/Sandra141' target='_blanc' ><img src={gitHub} /></a>
-                              <a href='#' target='_blanc' ><img src={linkedIn} /></a>
-                              <a href='#' target='_blanc' ><img src={xing} /></a>
+                              <a href='https://www.linkedin.com/in/sandramüller/' target='_blanc' ><img src={linkedIn} /></a>
                         </div>
                   </div>
             </div>
