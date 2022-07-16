@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./../cssFiles/mobileMenu.css";
 import gitHub from './../images/gitHub.png';
 import linkedIn from './../images/linkedIn.png';
-import xing from './../images/xing.png';
 
 const MobileMenu = () => {
       const [active, setActive] = useState(false);
@@ -59,8 +58,8 @@ const MobileMenu = () => {
                         <p><a href='#projects' onClick={handleMobileMenu} >My Projects</a></p>
                         <p><a href='#contact' onClick={handleMobileMenu} >Get In Touch</a></p>
                         <div className="iconContainer" id="iconContainerMobileMenu">
-                              <a href='https://github.com/Sandra141' target='_blanc' ><img src={gitHub} /></a>
-                              <a href='https://www.linkedin.com/in/sandramüller/' target='_blanc' ><img src={linkedIn} /></a>
+                              <a href='https://github.com/Sandra141' target='_blanc' ><img src={gitHub} alt="Github Icon" /></a>
+                              <a href='https://www.linkedin.com/in/sandramüller/' target='_blanc' ><img src={linkedIn} alt="LinkedIn Icon" /></a>
                         </div>
                   </div>
             </div>
