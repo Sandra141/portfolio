@@ -8,7 +8,7 @@ const Contact = () => {
         <div className="ContactContainer" id='contact'>
             <p>------ Contact Me ------</p>
             <h2>Get in Touch</h2>
-            <p>I am just a few clicks away...</p>
+            <p>I'm just a few clicks away...</p>
             <div className="iconContainer">
                 <a href='https://github.com/Sandra141' target='_blanc' ><img src={gitHub} alt="Github Icon" /></a>
                 <a href='https://www.linkedin.com/in/sandramüller/' target='_blanc' ><img src={linkedIn} alt="LinkedIn Icon" /></a>
