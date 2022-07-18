@@ -117,3 +117,12 @@
   height: 0.5em;
   width: 0.5em;
 }
+
+/*------------- media Queries -------------*/
+
+@media screen and (max-width: 700px) {
+  .cardImgContainer > img {
+    max-height: 100%;
+    width: 100%;
+  }
+}

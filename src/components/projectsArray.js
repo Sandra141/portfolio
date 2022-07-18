@@ -7,7 +7,7 @@ const projectsArray = [
         "imgSrc": MemoryGameThumbnail,
         "gifSrc": MemoryGameGif,
         "headline": "Memory Game",
-        "description": "One of my first projects. The idea came from an unfinished group project."
+        "description": "One of my very first React projects, which is not yet responsible (no mobile version). The idea came from an unfinished group project. (26. June)"
     },
     {
         "id": 2,
