@@ -39,6 +39,14 @@
     margin-top: 2em;
 }
 
+.aboutInfo a {
+    margin: 20px;
+}
+
+.aboutInfo a button {
+    margin: 0;
+  }
+
 /*------------- media Queries -------------*/
 
 @media screen and (max-width: 1100px) {
