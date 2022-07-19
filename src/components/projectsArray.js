@@ -2,6 +2,8 @@ import MemoryGameGif from './../projectMedia/MemoryDemo.gif';
 import MemoryGameThumbnail from './../projectMedia/MemoryDemo.png';
 import PopupGameGif from './../projectMedia/PopupGame.gif';
 import PopupGameThumbnail from './../projectMedia/PopupGame.png';
+import PopupGameMobileGif from './../projectMedia/PopupGameMobile.gif';
+import PopupGameMobileThumbnail from './../projectMedia/PopupGameMobile.png';
 
 const projectsArray = [
     {
@@ -14,7 +16,9 @@ const projectsArray = [
     {
         "id": 2,
         "imgSrc": PopupGameThumbnail,
+        "imgSrcMobile": PopupGameMobileThumbnail,
         "gifSrc": PopupGameGif,
+        "gifSrcMobile": PopupGameMobileGif,
         "headline": "Popup Game",
         "description": "I did this project in an amazing group of four people. We only had 8 hours to find the idea and complete the application. (18. July)"
     },
