@@ -35,7 +35,7 @@ const Slider = () => {
         } else {
             setIsShown(true);
             const hoveredCard = e.target;
-            e.target.setAttribute('src', projectsArray[ImageKeyInArray].gifSrc);
+            hoveredCard.setAttribute('src', projectsArray[ImageKeyInArray].gifSrc);
         }
     }
 
