@@ -1,9 +1,6 @@
-import { hover } from '@testing-library/user-event/dist/hover';
 import React, { useState } from 'react';
 import './../cssFiles/slider.css';
 import projectsArray from './projectsArray';
-
-const comingSoonProjects = projectsArray.slice(1);
 
 const Slider = () => {
     const [isShown, setIsShown] = useState(false);
@@ -28,19 +25,21 @@ const Slider = () => {
         }
     }
 
+    //desktop version only
     const handleOnMouseEnter = (e) => {
         const ImageKeyInArray = e.target.id - 1;
         if(isShown) {
-            setIsShown(false) //for mobile version
+            setIsShown(false);
             const hoveredCard = e.target;
             hoveredCard.setAttribute('src', projectsArray[ImageKeyInArray].imgSrc);
         } else {
-            setIsShown(true) //for mobile version
+            setIsShown(true);
             const hoveredCard = e.target;
             e.target.setAttribute('src', projectsArray[ImageKeyInArray].gifSrc);
         }
     }
 
+    //desktop version only
     const handleOnMouseLeave = (e) => {
         const ImageKeyInArray = e.target.id - 1;
         setIsShown(false) //for mobile version
@@ -54,10 +53,18 @@ const Slider = () => {
             setIsShown(false)
             const hoveredCard = e.target;
             hoveredCard.setAttribute('src', projectsArray[ImageKeyInArray].imgSrc);
+            const source = hoveredCard.parentElement.querySelector('source');
+            if(source) {
+                source.setAttribute('srcSet', projectsArray[ImageKeyInArray].imgSrcMobile);
+            }
         } else {
             setIsShown(true)
             const hoveredCard = e.target;
             e.target.setAttribute('src', projectsArray[ImageKeyInArray].gifSrc);
+            const source = hoveredCard.parentElement.querySelector('source');
+            if (source) {
+                source.setAttribute('srcSet', projectsArray[ImageKeyInArray].gifSrcMobile);
+            }
         }
     }
 
@@ -67,9 +74,10 @@ const Slider = () => {
                 <div className="inner">
 
                     <div className="card" key={projectsArray[1].id} >
-                        <div className="cardImgContainer" >
-                            <img src={projectsArray[1].imgSrc} id={projectsArray[1].id} alt="Demo of Popup Game" onMouseEnter={handleOnMouseEnter} onMouseLeave={handleOnMouseLeave} onClick={handleClick} />
-                        </div>
+                            <picture className="cardImgContainer">
+                                <source media="(max-width:950px)" srcSet={projectsArray[1].imgSrcMobile} />
+                                <img src={projectsArray[1].imgSrc} id={projectsArray[1].id} alt="Demo of Popup Game" onMouseEnter={handleOnMouseEnter} onMouseLeave={handleOnMouseLeave} onClick={handleClick} />
+                            </picture>
                         <div className="content">
                             <h1>{projectsArray[1].headline}</h1>
                             <h3>{projectsArray[1].description}</h3>
